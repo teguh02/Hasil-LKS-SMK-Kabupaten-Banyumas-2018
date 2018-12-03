@@ -1,0 +1,53 @@
+@charset "utf-8";
+#outerwrapper {
+	height: auto;
+	width: 800px;
+	margin-right: auto;
+	margin-left: auto;
+}
+body {
+	height: 350px;
+	width: 800px;
+	margin-right: auto;
+	margin-left: auto;
+}
+
+#header {
+	background-image: url(../../../LKS/PICTURES/OBYEK/ir-Terjun-Curug-Gomblang-Banyumas-3-800x445.jpg);
+	height: 350px;
+	width: 800px;
+	margin-right: auto;
+	margin-left: auto;
+}
+
+.logo {
+	background-color: #666;
+	height: 38px;
+	width: 800px;
+}
+#menu {
+	font-family: Arial, Helvetica, sans-serif;
+	color: #0FF;
+	height: 41px;
+	width: 800px;
+	background-color: #333;
+	font-size: 16px;
+	margin-right: auto;
+	margin-left: auto;
+}
+#menu a {
+	color: #0FF;
+	text-decoration: none;
+	padding: 11px;
+	float: left;
+	background-color: #666;
+}
+#menu a:hover {
+	background-color: #999;
+	display: block;
+	height: 17px;
+	width: autopx;
+	border-top-width: medium;
+	border-top-style: solid;
+	float: left;
+}
